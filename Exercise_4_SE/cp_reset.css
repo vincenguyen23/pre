@@ -1,0 +1,35 @@
+/*
+
+   Cycle Pathology Styles to Reset Style Defaults
+   Author: Vincent Nguyen
+   Date: 2.3.17
+
+   Filename: cp_reset.css
+   Supporting Files: none
+
+*/
+
+
+/*display HTML5 structure as block*/
+
+/*article, aside, figure, footer, hgroup, header, nav {
+  display: block;
+}*/
+
+
+
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: 1.2em;
+  line-style: none;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+}
+
+
+
+  
