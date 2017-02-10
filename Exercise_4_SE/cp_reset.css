@@ -1,35 +1,187 @@
 /*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Review Assignment
 
-   Cycle Pathology Styles to Reset Style Defaults
+   Cycle Pathology Style Sheet
    Author: Vincent Nguyen
-   Date: 2.3.17
+   Date:   2.8.17
 
-   Filename: cp_reset.css
-   Supporting Files: none
+   Filename:         race.css
+   Supporting Files:
 
 */
 
-
-/*display HTML5 structure as block*/
-
-/*article, aside, figure, footer, hgroup, header, nav {
+header, article, aside, figure, figcaption, hgroup, section, nav {
   display: block;
-}*/
-
-
-
-
-body {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 100%;
-  font-weight: inherit;
-  line-height: 1.2em;
-  line-style: none;
-  margin: 0px;
-  padding: 0px;
-  vertical-align: baseline;
 }
 
+* {
+  font-family: Verdana, Geneva, or sans-serif;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+}
 
+/*Navigation List*/
+
+nav a{
+  text-decoration: none;
+}
+
+nav.horizontal li {
+  width: 80%;
+  margin-left: 20%;
+}
+
+nav.horizontal li a {
+  color: white;
+}
+
+nav.horizontal li a:hover {
+  color: rgb(215, 181, 151);
+}
+
+nav.vertical li {
+  font-size: 85%;
+  text-decoration: none;
+  padding-top: 25px;
+}
+
+nav.vertical li a {
+  color: white;
+  display:block; 
+  text-indent: 1px;
+}
+
+nav.vertical li a:hover {
+  background-color: rgb(51, 51, 51);
+  border: 2px solid;
+  color: rgb(215, 181, 151);
+}
+/*Item and Unorder list*/
+
+li {
+  width: 20%;
+  background-color: rgb(49, 38, 31);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+ul {
+  margin: 25px;
+  margin-bottom: 10px;
+}
+
+/*Body element*/
+
+body {
+  position: relative;
+  width: 98%;
+  min-width: 1000px;
+  max-width: 1400px
+}
+
+/*Header element*/
+
+header {
+  position: absolute;
+  width: 20%;
+  background-color: black;
+  padding-bottom: 500px;
+}
+
+header img {
+  width: 100%;
+}
+
+/*style to the main section page*/
+
+#main {
+  float: left;
+  margin: 50%;
+  margin-left: 21%;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+#main h1 {
+  color: rgb(189, 131, 82);
+  font-size: 180%;
+   font-weight: normal;
+}
+
+#main aside {
+  border: 3px solid;
+  border-color: rgb(149, 91, 42);
+  color: rgb(149, 91, 42);
+  float: right;
+  margin: 10px;
+}
+#main aside p {
+  font-size: 90%;
+  margin: 20px;
+}
+
+#main article {
+  float: left;
+  width: 29%;
+  margin-left: 1%;
+  background-color: rgb(215, 181, 151);
+}
+
+/*style rule to article header group*/
+
+article hgroup {
+  background: rgb(189, 131, 82) url(alisha.png) 
+  bottom right no-tiling;
+  color: rgb(215, 181, 151);
+  margin-bottom: 10px;
+  height: 60px;
+  text-indent: 20px;
+}
+article hgroup h1 {
+  font-size: 150%;
+  font-weight: normal;
+}
+
+article hgroup h2 {
+  font-size: 110%;
+  font-weight: normal;
+}
+
+article p {
+  font-size: 90%;
+  margin: 15px;
+}
+
+/*Figure box*/
+
+figure {
+  float: left;
+  margin-left: 21%;
+  margin: 79%;
+  background-color: rgb(149, 91, 42);
+}
+
+figure div {
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+figure img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+figure figcaption {
+  background: white;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 5px
+}
 
   
